@@ -531,3 +531,5 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 <?php require __DIR__ . '/includes/landing-footer.php'; ?>
+
+// Bootstrapping complete.
