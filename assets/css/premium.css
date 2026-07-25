@@ -110,3 +110,5 @@ input:not([type="checkbox"]):not([type="radio"]), textarea, select {
 .table-row-hover:hover td {
   color: #1e293b !important; /* slate-800 */
 }
+
+/* Custom UI Tweaks */
