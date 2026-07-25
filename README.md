@@ -52,3 +52,6 @@ exchange_portal/
 ## Database Tables (8)
 
 `users`, `students`, `coordinators`, `universities`, `courses`, `applications`, `documents`, `notifications`
+
+## Latest Updates
+Minor documentation updates.
