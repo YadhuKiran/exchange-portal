@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { font-family: 'Segoe UI', system-ui, sans-serif; background: #f1f5f9; margin: 0; padding: 0; }
+        .container { max-width: 600px; margin: 0 auto; padding: 24px; }
+        .card { background: #ffffff; border-radius: 16px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+        .header { background: linear-gradient(135deg, #4f46e5, #7c3aed); padding: 32px 24px; text-align: center; }
+        .header h1 { color: #ffffff; font-size: 20px; margin: 0; }
+        .body { padding: 32px 24px; }
+        .status-badge { display: inline-block; padding: 6px 16px; border-radius: 20px; font-size: 13px; font-weight: 600; }
+        .footer { padding: 24px; text-align: center; font-size: 12px; color: #94a3b8; border-top: 1px solid #e2e8f0; }
+        .btn { display: inline-block; padding: 12px 24px; background: #4f46e5; color: #ffffff; text-decoration: none; border-radius: 10px; font-weight: 600; font-size: 14px; }
+        .btn:hover { background: #4338ca; }
+        p { color: #475569; line-height: 1.6; font-size: 15px; margin: 0 0 16px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="header">
+                <h1>Application Status Update</h1>
+            </div>
+            <div class="body">
+                <p>Dear {{first_name}},</p>
+                <p>Your exchange application <strong>#{{application_id}}</strong> has been updated.</p>
+                <p>New status: <span class="status-badge" style="background:#eef2ff;color:#4f46e5;">{{status}}</span></p>
+                {{notes_html}}
+                <p style="margin-top:24px"><a href="{{app_url}}/student/applications.php" class="btn">View Application</a></p>
+                <p style="color:#94a3b8;font-size:13px">Best regards,<br>Global Exchange Portal Team</p>
+            </div>
+            <div class="footer">
+                &copy; {{year}} Global Exchange Portal. All rights reserved.
+            </div>
+        </div>
+    </div>
+</body>
+</html>

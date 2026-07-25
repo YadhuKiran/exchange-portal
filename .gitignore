@@ -1,0 +1,9 @@
+/.env
+/vendor/
+/node_modules/
+/storage/logs/*.log
+!storage/logs/.gitkeep
+.DS_Store
+Thumbs.db
+*.log
+composer.phar
