@@ -36,6 +36,8 @@ $pageTitle = 'Cookie Policy';
         </main>
     </div>
 
+    
+
     <footer class="bg-slate-900 text-slate-400 py-6 text-center">
         <div class="max-w-4xl mx-auto px-6">
             <p>&copy; <?= date('Y') ?> <?= e(APP_NAME) ?>. All rights reserved.</p>
