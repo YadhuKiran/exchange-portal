@@ -13,6 +13,8 @@ $dateTo = $_GET['date_to'] ?? '';
 $sql = 'SELECT al.*, u.first_name, u.last_name FROM activity_logs al LEFT JOIN users u ON u.id=al.user_id WHERE 1=1';
 $params = [];
 
+
+
 if ($actionFilter) {
     $sql .= ' AND al.action LIKE ?';
     $params[] = '%' . $actionFilter . '%';
