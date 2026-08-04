@@ -5,6 +5,7 @@ require_role(['student']);
 $student = student_profile((int) current_user()['id']);
 $stuId = (int) $student['id'];
 
+
 $rows = db()->prepare(
     "SELECT d.* FROM documents d
      WHERE d.student_id = ? ORDER BY d.uploaded_at DESC"
