@@ -3,8 +3,6 @@ require_once __DIR__ . '/../includes/init.php';
 require_once __DIR__ . '/../includes/components.php';
 require_login();
 
-
-
 $user = current_user();
 // Only coordinators can access this dashboard
 if ($user['role'] !== 'coordinator') {
