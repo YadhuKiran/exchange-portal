@@ -12,7 +12,7 @@
   border: 1px solid var(--glass-border);
   box-shadow: var(--glass-shadow);
 }
-varies
+
 .glass-sidebar {
   background: rgba(15, 23, 42, 0.85); /* dark slate 900 with opacity */
   backdrop-filter: blur(16px);
