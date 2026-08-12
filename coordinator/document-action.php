@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../includes/init.php';
 require_role(['coordinator']);
-
+verified
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     verify_csrf();
     $id = (int) ($_POST['id'] ?? 0);
