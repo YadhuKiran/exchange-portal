@@ -2,6 +2,8 @@
 require_once __DIR__ . '/../includes/init.php';
 require_role(['coordinator']);
 
+
+
 $coord = coordinator_profile((int) current_user()['id']);
 $uniId = (int) $coord['university_id'];
 
