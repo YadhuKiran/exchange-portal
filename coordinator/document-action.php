@@ -7,6 +7,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $id = (int) ($_POST['id'] ?? 0);
     $action = $_POST['action'] ?? '';
 
+    verified
+
     $coord = coordinator_profile((int) current_user()['id']);
     $uniId = (int) $coord['university_id'];
 
