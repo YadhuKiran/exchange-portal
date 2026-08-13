@@ -13,7 +13,7 @@ $homeCoord = db()->prepare(
 );
 $homeCoord->execute([$student['university_id']]);
 $homeCoord = $homeCoord->fetch();
-
+  
 $pageTitle = 'My Coordinator';
 $activeNav = 'coordinator';
 require __DIR__ . '/../includes/layout.php';
