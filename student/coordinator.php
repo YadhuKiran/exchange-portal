@@ -3,7 +3,7 @@ require_once __DIR__ . '/../includes/init.php';
 require_role(['student']);   
 
 $student = student_profile((int) current_user()['id']);
-
+   
 $homeCoord = db()->prepare(
     "SELECT c.*, u.first_name, u.last_name, u.email
      FROM coordinators c
