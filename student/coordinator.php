@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__ . '/../includes/init.php';
-require_role(['student']);
+require_role(['student']);   
 
 $student = student_profile((int) current_user()['id']);
 
