@@ -4,6 +4,7 @@ Production-style university exchange portal built with **Core PHP**, **MySQL**, 
 
 ## Quick Start (XAMPP)
 
+
 1. **Start** Apache and MySQL in XAMPP.
 2. **Import database** (required):
    - Import `database/database.sql` then `database/migrations/001_enterprise.sql` (port **3307**)
