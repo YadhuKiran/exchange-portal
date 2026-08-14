@@ -1,5 +1,7 @@
 # Global Student Mobility & Exchange Portal (MVP)
 
+
+
 Production-style university exchange portal built with **Core PHP**, **MySQL**, **PDO**, **Tailwind CSS**, and **PHP Sessions**.
 
 ## Quick Start (XAMPP)
