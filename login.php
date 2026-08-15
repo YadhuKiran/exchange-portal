@@ -5,6 +5,8 @@ if (is_logged_in()) {
     redirect('/');
 }
 
+
+
 $error = '';
 $selectedRole = $_POST['role'] ?? $_GET['role'] ?? 'student';
 
