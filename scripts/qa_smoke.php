@@ -4,7 +4,6 @@
  */
 require_once __DIR__ . '/../includes/init.php';
 
-
 $issues = [];
 function issue(string $severity, string $area, string $msg): void
 {
