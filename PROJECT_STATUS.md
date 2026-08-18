@@ -1,5 +1,7 @@
 # PROJECT STATUS
 
+
+
 **Project:** Global Student Mobility & Exchange Portal  
 **Version:** MVP 1.0  
 **Stack:** Core PHP · MySQL (PDO) · Tailwind CSS CDN · PHP Sessions  
