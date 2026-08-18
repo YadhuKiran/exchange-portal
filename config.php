@@ -1,6 +1,5 @@
 <?php
 
-
 define('APP_NAME', getenv('APP_NAME') ?: 'Global Exchange Portal');
 define('DB_HOST', getenv('DB_HOST') ?: 'localhost');
 define('DB_PORT', getenv('DB_PORT') ?: '3307');
