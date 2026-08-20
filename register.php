@@ -5,6 +5,7 @@ if (is_logged_in()) {
     redirect('/');
 }
 
+
 $universities = db()->query("SELECT id, name, code FROM universities WHERE status='active' ORDER BY name")->fetchAll();
 $error = '';
 $tab = $_GET['type'] ?? 'student';
