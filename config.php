@@ -19,5 +19,3 @@ define('ITEMS_PER_PAGE', 10);
 define('ALLOW_WEB_INSTALL', false);
 
 define('APP_ENV', getenv('APP_ENV') ?: 'production');
-
-

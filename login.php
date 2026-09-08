@@ -3,7 +3,7 @@ require_once __DIR__ . '/includes/init.php';
 
 if (is_logged_in()) {
     redirect('/');
-} 
+}
 
 $error = '';
 $selectedRole = $_POST['role'] ?? $_GET['role'] ?? 'student';
